@@ -8,31 +8,35 @@
 <body>
     <form> 
         <h1>Register</h1>
-        <label>Full Name :</label>
-        <input type="text" placeholder="Enter Full name">
+        <label for="name">Full Name :</label>
+        <input type="text" id="name" placeholder="Enter Full name">
         <br><br>
-        <label>Mobile No. :</label>
-        <input type="number" placeholder="Enter mob number">
+        <label for="mob">Mobile No. :</label>
+        <input type="number" id="mob" placeholder="Enter mob number">
         <br><br>
-        <label>Email :</label>
-        <input type="email" placeholder="Enter email">
+        <label for="mail">Email :</label>
+        <input type="email" id="mail" placeholder="Enter email">
         <br><br>
-        <label>DOB :</label>
-        <input type="date" placeholder="Enter date of birth">
+        <label for="dob">DOB :</label>
+        <input type="date" id="dob" placeholder="Enter date of birth">
         <br><br>
-        <label>Gender :</label>
-        <input type="radio" name="gender" value="Male"> Male
-        <input type="radio" name="gender" value="Female"> Female
-        <input type="radio" name="gender" value="Other"> Other
+        <label for="gender">Gender :</label>
+        <input type="radio" id="gender" name="gender" value="Male"> Male
+        <input type="radio" id="gender" name="gender" value="Female"> Female
+        <input type="radio" id="gender" name="gender" value="Other"> Other
         <br><br>
-        <label>Password :</label>
-        <input type="password" placeholder="Enter password">
+        <label for="res">Resume :</label>
+        <input type="file" id="res" placeholder="upload Resume">
         <br><br>
-        <label>Confirm Pass :</label>
-        <input type="pass" placeholder="Re-Enter Password">
+        <label for="pass">Password :</label>
+        <input type="password" id="pass" placeholder="Enter password">
         <br><br>
+        <label for="cpass">Confirm Pass :</label>
+        <input type="pass" id="cpass" placeholder="Re-Enter Password">
+        <br><br>
+        
         <button>Submit</button>
         <button type="reset">Reset</button>
     </form>
 </body>
-</html>
+</html> 

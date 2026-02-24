@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:10px;
+    box-sizing:border-box;
+}
+
+/*  marker is pseudo elemnt */
+
+li::marker{                 
+    /* change the color  of  serial number */
+    color:orange;
+}
+
+::-webkit-scrollbar{
+    background-color:aqua;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:black;
+}
+
+p::selection{
+    background-color:azure;
+}

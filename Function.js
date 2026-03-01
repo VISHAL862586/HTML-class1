@@ -1,14 +1,19 @@
-console.log(Math.max(1, 2, 3, 6, 4, 4, 2, 5));
 
-/* Browser Function */
 
-alert("Good Morning");
- confirm("Are you above 18");
-
- const ans= confirm("Are you above 18");
-  if(ans){
-    console.log("Eligible to votting");
+ /* let num = prompt("Enter a number");
+  if(num%2==0){
+    alert("Num is Even");
   }
   else{
-    console.log("Not eligible");
-  }
+    alert("Num is Odd");
+  }*/
+
+
+  let num1= prompt("Enter First num");
+  let num2=prompt("Enter Secvond num");
+
+
+  alert("Sum is "+(num1+num2));
+
+
+  // Sh-

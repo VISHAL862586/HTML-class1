@@ -35,16 +35,23 @@ for(let num=1;num<=100; num++ ){
 
 console.log("Prime Num");
 
-let num=17;
+let num=4;
 let cnt=0;
-for(let i=1; i<(num/2); i++){
+for(let i=1; i<num; i++){
     if(num%i==0){
         cnt++;
     }
 }
-if(cnt<=2){
+if(cnt<2){
     console.log("Prime num :",num);
 }
 else{
     console.log("Not Prime");
 }
+
+let no=10;
+let sum=0;
+for(let i=0; i<=no; i++){
+    sum= sum+i;
+}
+console.log(sum);

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgray;
+  min-width: 150px;
+  padding: 10px;
+}
+
+.dropdown-content p {
+  margin: 5px 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <span>Hover on me</span>
+
+  <div class="dropdown-content">
+    <p>Option 1</p>
+    <p>Option 2</p>
+    <p>Option 3</p>
+  </div>
+</div>
+
+</body>
+</html>
